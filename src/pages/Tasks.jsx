@@ -1,7 +1,7 @@
 
 import { useEffect, useState } from "react";
 import { Link } from "react-router-dom";
-import { apiRequest } from "../api";
+import { apiRequest } from "../Api.js";
 
 export default function Tasks() {
   const [tasks, setTasks] = useState([]);
